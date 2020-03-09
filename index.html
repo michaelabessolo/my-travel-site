@@ -1,80 +1,122 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Michael's Travel Site</title>
-        <link type="text/css" rel="stylesheet" href="assets/Stylesheets/styles.css">
-       
-    </head>
-    <body>
-        <div id="welcome">
-        <h1> Welcome to Michael's travel site</h1>
-            <p> website is all about the places i would like to visit</p>
-            <h2>Here are some places I'd like to visit</h2>
+        <head>
+            <!-- Required meta tags and Bootstrap CSS -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheets" type="text/css" href="assets/stylesheets/style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          </head>
+          
+          <body>
+            <div class="bg"></div>
 
-        </div>
 
-            <div class="linksofdestinations">
-            <ul>
-                <li>
-                    <img src="./assets/images/paris.jpg" width="50">
-                    <a href="https://www.france.fr/en" target="_blank">France</a>
-                </li>
-                <li>
-                    <img src="./assets/images/76709-640x360-houses-of-parliament-and-london-eye-on-thames-from-above-640.jpg" width="50">
-                    <a href="https://www.visitengland.com/" target="_blank">England</a>
-                </li>
-                <li>
-                    <img src="./assets/images/tour_img-643134-146.jpg" width="50">
-                    <a href="https://www.visitportugal.com/en" target="_blank">Portugal</a>
-                </li>
-                <li>
-                    <img src="./assets/images/rio-de-janeiro-brazil-olympics-ftr.jpg" width="50">
-                    <a href="https://www.brazil.org.za/" target="_blank">Brazil</a>
-                </li>
-                <li>
-                    <img src="./assets/images/download.jpg" width="50">
-                    <a href="https://www.chinahighlights.com/travelguide/plan-first-trip.htm" target="_blank">China</a>
-                </li>
-            </ul>
+            <div class="jumbotron text-center"> 
+
+                <h1>My Travel Site </h1> 
             </div>
-            
-            <table>
-                <tr>
-                    <th>Destination</th>
-                    <th>Capital</th>
-                    <th>Official Language</th>
-                </tr>
-                <tr>
-                    <td>France</td>
-                    <td>paris</td>
-                    <td>French</td>
-                </tr>
-                <tr>
-                    <td>England</td>
-                    <td>London</td>
-                    <td>English</td>
-                </tr>
-                <tr>
-                    <td>Portugal</td>
-                    <td>Lisbon</td>
-                    <td>Portuguese</td>
-                </tr>
-                <tr>
-                    <td>Brazil</td>
-                    <td>Brasilia</td>
-                    <td>Portuguese</td>
-                </tr>
-                <tr>
-                    <td>China</td>
-                    <td>Beijing</td>
-                    <td>Mandarin</td>
-                </tr>
-            </table>
-            <h2>Paris</h2>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Articles <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.france.fr/en" target="_blank">France</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.visitengland.com/" target="_blank">England</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.brazil.org.za/" target="_blank">Brazil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://portugal.com/" target="_blank">Portugal</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Book a Trip
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.expedia.com" target="_blank">Flights</a>
+                        <a class="dropdown-item" href="https://www.hotels.com/" target="_blank">Hotels</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.getyourguide.com/" target="_blank">Tour Guide</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+          
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          </body>
+        <title>My Travel Site</title>
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+    </head>
+</html>
+<body></body>
+    <!--Nav bar end-->
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+          <div class="col-sm-4">
+            <h2>About Me</h2>
+            <br>
+            <img src="./assets/images/88956928_489678905274292_7924526754918563840_n.jpg " width="170" height="200">
+            <br>
+            <p>Hello guests, my name is Michael and this page is all about the places i'd would like to visit some day!</p>
+            <h2>Social networking</h2>
+            <p>To have live updates on my travels follow me.</p>
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/AbessAbess" target="_blank"><i class="fa fa-facebook-official" style="font-size:24px;color:blue"></i>Facebook</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/lord_abess/?hl=en" target="_blank"><i class="fa fa-instagram" style="font-size:24px;color:rgb(211, 43, 226)"></i>Instagram</a>
+              </li>
+            </ul>
+            <hr class="d-sm-none">
+          </div>
+          <div class="col-sm-8">
+            <h2>Discover where I am from.</h2>
+            <p>Douala is a coastal city in southwest Cameroon. Inland from the Wouri River, La Pagode, or the Palace of the Kings Bell, dates from the German colonial period.
+             Nearby, the Doual’art gallery exhibits art from Cameroon and across Africa. <a href="C:/Users/cedri/my-travel-site/discoverwhereimfrom.html" target="_self"> Click for more</a> </p>
+            <br>
+            <h2>Why I love traveling.</h2>
+            <p>Want to know how to meet people while travelling alone? Well, it’s easier than you think, and no, you don’t need to be a social butterfly. Right now you may be thinking ‘but isn’t it a bit weird to talk to random strangers?!’ To that we say, welcome to the dark side, friends! The normal rules of politely averted gazes and stiff upper lips don’t apply when you’re backpacking, and that’s a good thing. You’ll soon come to realise it’s the people you meet along the way who make travel such a rewarding experience.
+             Whether you’re eager to meet locals while travelling, or you’re searching for a fellow backpacker to get off the beaten. <a href="C:/Users/cedri/my-travel-site/whyitravel.html" target="_self"> Click for more</a> </p>
+            <br>
+            <h2>Enjoying different cuisine.</h2>
+            <p>Different areas of the world have so many new flavors and dishes that you would never even think of. From decadent scoops of <mark>gelato</mark> to exotic <mark>acaraje</mark>, there is always something fun to try. The possibilities are endless. Here are more reasons why food trumps all aspects of traveling.<a href="C:/Users/cedri/my-travel-site/differentcuisine.html" target="_self"> Click for more</a></p>
+        </div>       
+        </div>
+      </div>
+      <div class="footer">
+        <footer>
+            <p>Posted by: Michael Abessolo</p>
+            <p>Contact information: <a href="mailto:abessolomichael@gmail.com">
+            abessolomichael@gmail.com</a>.</p>
+          </footer>
+      </div>
+      
+      
+    <body>
 
-        <p id="paris"> The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.</p>
-        <img src="./assets/images/eiffel-tower.jpg" alt="Effeil Tower">
-        
-            <a href="mailto:abessolomichael@gmail.com">Email Me!</a>
-    </body>
+         
 </html>

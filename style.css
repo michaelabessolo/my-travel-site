@@ -1,0 +1,18 @@
+.jumbotron {
+    background-image: url("https://images.wallpaperscraft.com/image/grass_sunlight_sunset_90198_1280x720.jpg");
+    background-size: cover;
+    height: 50%;
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-size: 100px;
+}
+.col-sm-8{
+    font-family:'Times New Roman', Times, serif
+}
+.col-sm-4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    margin-top:100px; 
+    text-align: center;
+    
+}
